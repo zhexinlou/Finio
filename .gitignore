@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+java-service/target/
+python-service/__pycache__/
+*.pyc
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Database
+java-service/data/
+*.h2.db
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Vector store
+python-service/chroma_db/
+
+# Warehouse data
+warehouse/
+
+# Docker volumes
+mysql-data/
+redis-data/
